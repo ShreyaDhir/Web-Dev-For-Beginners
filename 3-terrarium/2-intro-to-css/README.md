@@ -15,7 +15,7 @@ CSS, or Cascading Style Sheets, solve an important problem of web development: h
 
 In this lesson, we're going to add styles to our online terrarium and learn more about several CSS concepts: the cascade, inheritance, and the use of selectors, positioning, and using CSS to build layouts. In the process we will layout the terrarium and create the actual terrarium itself.
 
-### Prequisite
+### Prerequisite
 
 You should have the HTML for your terrarium built and ready to be styled.
 
@@ -61,7 +61,7 @@ Styles are inherited from an ancestor style to a descendent, such that nested el
 
 Set the body's font to a given font, and check to see a nested element's font:
 
-```
+```CSS
 body {
 	font-family: helvetica, arial, sans-serif;
 }
@@ -81,7 +81,7 @@ Open your browser's console to the 'Elements' tab and observe the H1's font. It 
 
 So far, your `style.css` file has only a few tags styled, and the app looks pretty strange:
 
-```
+```CSS
 body {
 	font-family: helvetica, arial, sans-serif;
 }
@@ -98,7 +98,7 @@ This way of styling a tag gives you control over unique elements, but you need t
 
 Add some style to layout the left and right containers. Since there is only one left container and only one right container, they are given ids in the markup. To style them, use `#`:
 
-```
+```CSS
 #left-container {
 	background-color: #eee;
 	width: 15%;
@@ -142,7 +142,7 @@ Notice that each plant in the HTML markup has a combination of ids and classes. 
 
 Add the following to your `style.css` file:
 
-```css
+```CSS
 .plant-holder {
 	position: relative;
 	height: 13%;
@@ -189,7 +189,7 @@ Now you will use what you learned to build the terrarium itself, all using CSS!
 
 First, style the `.terrarium` div children as a rounded rectangle using CSS:
 
-```css
+```CSS
 .jar-walls {
 	height: 80%;
 	width: 60%;
@@ -248,7 +248,7 @@ Add a 'bubble' shine to the left bottom area of the jar to make it look more gla
 
 ![finished terrarium](./images/terrarium-final.png)
 
-To complete the post-lecture quiz, go through this Learn module: [Style your HTML app with CSS](https://docs.microsoft.com/en-us/learn/modules/build-simple-website/4-css-basics)
+To complete the post-lecture quiz, go through this Learn module: [Style your HTML app with CSS](https://docs.microsoft.com/en-us/learn/modules/build-simple-website/4-css-basics?WT.mc_id=academic-13441-cxa)
 
 ## Post-Lecture Quiz
 
